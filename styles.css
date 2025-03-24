@@ -1,0 +1,186 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e7d3e9;
+    color: #1f0411;
+  }
+  
+  /* Header image at the top */
+  #header-image {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-img {
+    width: 150px; /* Adjust the size of the image */
+    height: 150px; /* Make sure width and height are the same */
+    border-radius: 50%; /* This creates the circular effect */
+    object-fit: cover; /* Ensures the image fits well in the circle */
+    border: 5px solid #161515; /* Optional: Adds a border around the image */
+  }
+  
+  /* Navigation Bar */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: rgb(114, 231, 114);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #about p, #skills ul {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #0cdee6;
+    border-radius: 5px;
+  }
+  
+  
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #13040f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4726be;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  /* Styling for Profile Image in About Me Section */
+  .about-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 150px; /* Same size for consistency */
+    height: 150px; /* Same size for consistency */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image fits well */
+    margin-bottom: 20px;
+  }
+  /* Styling for Social Icons Section */
+#social-links {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #social-links h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-icon {
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #0077b5; /* Change color on hover */
+  }
+  
+  /* Optional: Add a color scheme for each icon */
+  .social-icon i.fa-github:hover {
+    color: #333; /* GitHub default color */
+  }
+  
+  .social-icon i.fa-linkedin:hover {
+    color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .social-icon i.fa-codechef:hover {
+    color: #5c0d32; /* CodeChef red */
+  }
+  
